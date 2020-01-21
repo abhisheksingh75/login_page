@@ -17,7 +17,7 @@
 				"express": "^4.15.4",
 				"mongoose": "^5.8.7",
 				"morgan": "^1.9.1",
-				"ejs": "~1.0.0",
+				"ejs": "~3.0.1",
 				"mysql": "*"
 		},
 		"devDependencies": {
