@@ -1,10 +1,26 @@
 {
-	"name": "Express_web_app",
-	"version": "1.0.0",
-	"dependencies": {
-		"ejs": "~1.0.0",
-		"express": "^4.17.1",
-		"mysql": "*",
-		"nodemon": "^2.0.2"
-	}
+		"name": "user_auth",
+		"version": "1.0.0",
+		"description": "Basic HTML login form integration with express backend.",
+		"main": "app.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1",
+				"start": "node ./app.js",
+				"devstart": "nodemon ./app.js",
+				"serverstart": "DEBUG=user_authform:* npm run devstart"
+		},
+		"author": "Siddhant Shrivastava",
+		"license": "ISC",
+		"dependencies": {
+				"body-parser": "*",
+				"cookie-parser": "^1.4.3",
+				"express": "^4.15.4",
+				"mongoose": "^5.8.7",
+				"morgan": "^1.9.1",
+				"ejs": "~1.0.0",
+				"mysql": "*"
+		},
+		"devDependencies": {
+				"nodemon": "^2.0.2"
+		}
 }
